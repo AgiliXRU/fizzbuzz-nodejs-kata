@@ -4,7 +4,7 @@ require("mocha");
 
 describe("Игрок должен", () => {
 
-    const gamer = new Gamer();
+    const gamer = new Gamer({3: "Fizz", 5: "Buzz"});
 
     it("сказать само число", () => {
         expect(gamer.answers(1)).is.equals("1");

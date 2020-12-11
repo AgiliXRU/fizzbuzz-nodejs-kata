@@ -1,16 +1,22 @@
 class Gamer {
 
+    replacement = {};
+
+    constructor(replacement) {
+        this.replacement = replacement;
+    }
+
     answers(number) {
         let result = "";
-        if (number % 3 === 0) {
-            result += "Fizz";
-        }
-        if (number % 5 === 0) {
-            result += "Buzz";
-        }
+
+        Object.keys(this.replacement).forEach(
+            key => result += ((number % key === 0) ? this.replacement[key] : "")
+        )
+
         if (result === "") {
             result = number.toString();
         }
+
         return result;
     }
 }
