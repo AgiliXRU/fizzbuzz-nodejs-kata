@@ -1,0 +1,32 @@
+{
+  "name": "fizzbuzz-nodejs-kata",
+  "version": "1.0.0",
+  "description": "FizzBuzz Kata on NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agilixru/fizzbuzz-nodejs-kata.git"
+  },
+  "keywords": [
+    "kata",
+    "fizzbuzz",
+    "nodejs"
+  ],
+  "author": "AgilixRu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agilixru/fizzbuzz-nodejs-kata/issues"
+  },
+  "homepage": "https://github.com/agilixru/fizzbuzz-nodejs-kata#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
+  }
+}
