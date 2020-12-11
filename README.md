@@ -1,18 +1,14 @@
 # FizzBuzz Kata
 
-This Kata was posted here by someone anonymously. Michael Feathers and EmilyBache performed it at agile2008 when competing in “Programming with the stars” in python, in 4 minutes.
+Представьте ситуацию. Вам около 11 лет, и остаётся 5 минут до конца школьного урока. Мария Ивановна, ваш учитель математики, хочет завершить его в "позитивном ключе" предлагая поучаствовать всему классу в "игре". Она объясняет, что каждый ученик, на которого она покажет, должен называть число по очереди. Игра начинается с 1. Далее она добавляет, что если число делится на 3 без остатка, то вместо него нужно назвать "Fizz", а если на 5 - то "Buzz". И так игра начинается, и ученики, на которых она показывает, весело кричат "один!", "два!", "Fizz!", "четыре!", "Buzz!" ... Пока он намеренно не указывает на вас, пристально глядя на вас стальным взглядом… Время останавливается, ваш рот пересыхает, ваши ладони становятся все более и более потными, пока вы, наконец, не успеете прохрипеть "Fizz!". Угроза миновала, и её указательный палец двинулся дальше:)
 
-Difficulty: Easy Good for teaching: TDD , BabySteps
+Конечно, чтобы не выглядеть смущенным перед всем классом вы решаете распечатать всю последовательность, чтобы не всегда знать, что ответить. В вашем классе 33 ученика, и учительница успевает спросить каждого по 3 раза до окончания урока. Следующий урок уже в четверг. Давай решим эту задачу с помощью кода!
 
-## Problem Description
+## Уровень 1
 
-Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more “fun” by introducing a “game”. He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The “fun” part is that if the number is divisible by three, you instead say “Fizz” and if it is divisible by five you say “Buzz”. So now your maths teacher is pointing at all of your classmates in turn, and they happily shout “one!”, “two!”, “Fizz!”, “four!”, “Buzz!”… until he very deliberately points at you, fixing you with a steely gaze… time stands still, your mouth dries up, your palms become sweatier and sweatier until you finally manage to croak “Fizz!”. Doom is avoided, and the pointing finger moves on.
+Напишите программу, которая печатает натуральные числа от 1 до 100. Числа, которые делятся на 3, заменяем на "Fizz", а на 5 на "Buzz". Если число делится и на 3 и на 5, то "FizzBuzz".
 
-So of course in order to avoid embarassment infront of your whole class, you have to get the full list printed out so you know what to say. Your class has about 33 pupils and he might go round three times before the bell rings for breaktime. Next maths lesson is on Thursday. Get coding!
-
-Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz “.
-
-Sample output:
+Пример:
 ```
 1
 2
@@ -37,11 +33,10 @@ Buzz
 ... etc up to 100
 ```
 
-## Stage 2 - new requirements
+## Уровень 2
 
-```
- * A number is fizz if it is divisible by 3 or if it has a 3 in it
- * A number is buzz if it is divisible by 5 or if it has a 5 in it
-```
+- Число меняется на Fizz, если оно делится на 3 или содержит цифру 3
+- Число меняется на Fizz, если оно делится на 5 или содержит цифру 5
+
 
 Источник: https://codingdojo.org/kata/FizzBuzz/
