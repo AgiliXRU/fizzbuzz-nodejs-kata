@@ -30,7 +30,7 @@ FizzBuzz
 Fizz
 19
 Buzz
-... etc up to 100
+... и т.д. до 100
 ```
 
 ## Уровень 2
