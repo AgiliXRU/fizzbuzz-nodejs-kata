@@ -19,10 +19,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install
         run: |
-          npm i mocha nyc -g
+          npm i mocha
           npm i
       - name: Build
         run: |
-          npm run prod
+          npm test
         env:
           CI: true
