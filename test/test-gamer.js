@@ -1,6 +1,3 @@
-const {expect} = require("chai");
-require("mocha");
-
 /**
  [✓] составить план;)
  [ ] сказать само число
